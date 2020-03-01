@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marc Tutorial</title>
+    <style>
+      .header {
+        border: 2px solid black;
+        font-size: 1.25rem;
+        padding: 1.5rem 2rem;
+      }
+      .playground {
+        border: 2px solid red;
+        padding: 1.5rem 2rem;
+        margin-top: 0.5rem;
+        text-align: center;
+      }
+      span {
+        font-weight: bold;
+        font-size: 1.5625rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>This will be marc lesters GIT tutorial.</h1>
+      <hr />
+      <h3>Your tasks will be...</h3>
+      <ul>
+        <li>Clone this repo.</li>
+        <li>
+          Set up your GIT for this repo ( so you can "git push" and "git pull"
+          changes ).
+        </li>
+        <li>
+          Learn how to create a new branch for your changes.
+        </li>
+        <li>Learn how to create "commit message" to describe your changes.</li>
+        <li>Push your changes to the repo you cloned.</li>
+        <li>Pull changes to keep your code up to date with other devs.</li>
+      </ul>
+      <hr />
+      <h1>GIT syntax cheatsheet for reference</h1>
+      <p><span>cd</span> - Change directory</p>
+      <p><span>cd ..</span> - Move out of directory</p>
+      <p><span>ls</span> - List all files inside directory</p>
+      <p>
+        <span>git clone { SOME_URL }</span> - Clone a git repo to the folder
+        you're in.
+      </p>
+      <p>
+        <span>git remote -v</span> - Check to see if you have a source
+        repository you can push your cahnges to. ( Will explain further. )
+      </p>
+      <p>
+        <span>git checkout -b { BRANCH_NAME }</span> - Create a new branch for
+        your changes/features/bug fixes etc.
+      </p>
+      <p>
+        <span>git status</span> - Check your changes ( You will see it in a red
+        color in the command line. )
+      </p>
+      <p>
+        <span>git add .</span> - Confirm that your changes are ready for
+        pushing.
+      </p>
+      <p>
+        <span>git commit -m { SOME_MESSAGE }</span> - Add a message that will
+        show up in github that will describe your changes.
+      </p>
+      <p>
+        <span>git push</span> - Push your changes to the remote branch you set (
+        SEE git remote -v for this one. Will explain further )
+      </p>
+      <p>
+        <span>git pull</span> - Pull changes that other people made so you all
+        have the same code moving forward.
+      </p>
+    </div>
+    <div class="playground">
+      <h1>
+        This will be your playground where we will place our changes to be
+        pushed.
+      </h1>
+      <h1>We can put any shit in here.</h1>
+    </div>
+  </body>
+</html>
